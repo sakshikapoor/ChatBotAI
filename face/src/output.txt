@@ -1,0 +1,20 @@
+Sentence #1 (5 tokens, sentiment: Neutral):
+what is cloud computing?
+[Text=what CharacterOffsetBegin=1 CharacterOffsetEnd=5 PartOfSpeech=WP Lemma=what SentimentClass=Neutral]
+[Text=is CharacterOffsetBegin=6 CharacterOffsetEnd=8 PartOfSpeech=VBZ Lemma=be SentimentClass=Neutral]
+[Text=cloud CharacterOffsetBegin=9 CharacterOffsetEnd=14 PartOfSpeech=NN Lemma=cloud SentimentClass=Neutral]
+[Text=computing CharacterOffsetBegin=15 CharacterOffsetEnd=24 PartOfSpeech=NN Lemma=computing SentimentClass=Neutral]
+[Text=? CharacterOffsetBegin=24 CharacterOffsetEnd=25 PartOfSpeech=. Lemma=? SentimentClass=Neutral]
+(ROOT
+  (SBARQ
+    (WHNP (WP what))
+    (SQ (VBZ is)
+      (NP (NN cloud) (NN computing)))
+    (. ?)))
+
+root(ROOT-0, what-1)
+cop(what-1, is-2)
+compound(computing-4, cloud-3)
+nsubj(what-1, computing-4)
+punct(what-1, ?-5)
+
